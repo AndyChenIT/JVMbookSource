@@ -27,6 +27,6 @@ public class AveLoadTomcatOOM {
     //
     //     double min=creationTimes.get(0)/1000;
     //     double max=creationTimes.get(creationTimes.size()-1)/1000;
-    //     System.out.println("Æ½¾ùÑ¹Á¦£º"+creationTimes.size()*1.0/(max-min)+"´Î/Ãë");
+    //     System.out.println("Æ½ï¿½ï¿½Ñ¹ï¿½ï¿½ï¿½ï¿½"+creationTimes.size()*1.0/(max-min)+"ï¿½ï¿½/ï¿½ï¿½");
     // }
 }
