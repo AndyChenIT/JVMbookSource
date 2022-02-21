@@ -7,5 +7,9 @@ public class Calc {
 		int c = 50;
 		return (a + b) / c;
 	}
+
+	public static void main(String[] args) {
+		int calc = new Calc().calc();
+	}
 }
 
