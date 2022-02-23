@@ -1,7 +1,7 @@
 package geym.zbase.ch10.findorder;
 
 /**
- * -Xbootclasspath/a:D:/tmp/clz
+ * -XBootclasspath/a:D:/tmp/clz
  * -XBootClasspath 指定 说明加载先从启动classloader开始
  * @author Administrator
  *
