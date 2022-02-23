@@ -1,5 +1,7 @@
 package geym.zbase.ch2.localvar;
 
+import java.util.concurrent.TimeUnit;
+
 public class LocalVarGC {
     public void localvarGc1() {
         byte[] a = new byte[6 * 1024 * 1024];
@@ -32,9 +34,9 @@ public class LocalVarGC {
         System.gc();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         LocalVarGC ins = new LocalVarGC();
-        ins.localvarGc1();
+        ins.localvarGc5();
     }
 
 }
