@@ -4,7 +4,7 @@ package geym.zbase.ch5;
  * -XX:+PrintGCDetails -XX:+ExplicitGCInvokesConcurrent -XX:+UseConcMarkSweepGC
  * -XX:+PrintGCDetails -XX:+ExplicitGCInvokesConcurrent -XX:+UseG1GC
  * 
- * ExplicitGCInvokesConcurrent 在System.gc()时会使用并发方式 回收
+ * ExplicitGCInvokesConcurrent 鍦⊿ystem.gc()鏃朵細浣跨敤骞跺彂鏂瑰紡 鍥炴敹
  * @author geym
  *
  */
